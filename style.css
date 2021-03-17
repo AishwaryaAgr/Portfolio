@@ -297,7 +297,7 @@ body {
 	background-size: cover;
 }
 .reply {
-	zoom: 0.8;
+	zoom: 0.9;
 	width: 80% !important;
 	margin-left: 10%;
 	margin-top: 1%;
@@ -319,7 +319,7 @@ body {
 	font: 14px/1.4 Roboto, Helvetica, Arial, Tahoma, sans-serif;
 	font-weight: 300;
 	color: #fdfeff !important;
-	background-color: rgb(39, 39, 41);
+	background-color: rgba(46, 46, 65, 0.877);
 	border-radius: 14px;
 }
 /* 292f33 */
@@ -826,13 +826,15 @@ body {
 
 .page5{
 	padding-top: 10px !important;
-	text-align: center;
+	padding: auto;
+	text-align: left;
 	background-image: linear-gradient(to bottom, white,rgb(117 ,147, 141));
 	height: fit-content !important;
 }
 .about{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 3.5rem;
+	text-align: center;
 }
 
 
@@ -842,15 +844,14 @@ body {
   overflow: hidden;
   height: 60vh;
   width: 70vw;
-  margin: auto;
-  margin-top: 20px;
+  margin: 30px auto;
   
 }
 
 .slide-wrapper {
   width: fit-content;
   display: flex;                 
-  -webkit-animation: slide 18s ease infinite;
+  -webkit-animation: slide 22s ease infinite;
 }
 
 .slide {
@@ -909,8 +910,8 @@ background-repeat: no-repeat;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 .foot {
-	font-family: Open Sans;
-	margin: 0;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: -15px;
 	
 }
 .footer-distributed {
@@ -920,11 +921,10 @@ background-repeat: no-repeat;
 	box-sizing: border-box;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0 63%;
+	background-position: 0 65%;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	margin-top: -2.6vh;
 	padding: 60px 50px;
 	padding-top:120px !important;
 }
