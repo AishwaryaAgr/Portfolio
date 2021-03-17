@@ -920,12 +920,13 @@ background-repeat: no-repeat;
 	box-sizing: border-box;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0 68%;
+	background-position: 0 63%;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	margin-top: -2.6vh;
 	padding: 60px 50px;
+	padding-top:120px !important;
 }
 
 .footer-distributed .footer-left,
