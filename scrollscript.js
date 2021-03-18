@@ -24,7 +24,7 @@ const back = document.querySelector(".back");
 
 // const back = document.querySelector(".back");
 $(document).ready(function main() {
-	
+
 	$bHeight = height;
 	$sHeight = window.innerHeight;
 	$sliderHeight = ($sHeight / $bHeight) * 100;
@@ -70,9 +70,8 @@ $(document).ready(function main() {
 		b = Math.floor(Math.random() * 255);
 
 		slide.style.background = `rgba(${r},${g},${b},1)`;
-		scrollBar.style.background = `rgba(${255 - r},${255 - g},${
-			255 - b
-		},0.5)`;
+		scrollBar.style.background = `rgba(${255 - r},${255 - g},${255 - b
+			},0.5)`;
 		correct();
 		hello();
 	};
@@ -117,6 +116,20 @@ $(document).ready(function main() {
 	window.onbeforeunload = function () {
 		window.scrollTo(0, 0);
 	};
+
+	const logo = document.querySelector('.divi');
+	const hover = document.querySelector('.hovering');
+	const p2 = document.querySelector('.page2');
+	const cont = document.querySelector('.content');
+	// console.log(logo);
+
+	logo.addEventListener('mouseover', () => {
+		hover.style.left = '0';
+	});
+	logo.addEventListener('mouseleave', () => {
+		hover.style.left = '100%';
+	});
+
 
 	scrollBar.addEventListener("click", (e) => {
 		$pos = e.clientY;

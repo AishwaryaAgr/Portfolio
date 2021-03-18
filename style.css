@@ -851,7 +851,7 @@ body {
 .slide-wrapper {
   width: fit-content;
   display: flex;                 
-  -webkit-animation: slide 22s ease infinite;
+  -webkit-animation: slide 18s ease infinite;
 }
 
 .slide {
