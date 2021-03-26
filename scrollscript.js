@@ -22,6 +22,7 @@ var height = Math.max(
 head.innerHTML += `<link rel="stylesheet"  href="scrollstyle.css" />`;
 const back = document.querySelector(".back");
 
+
 // const back = document.querySelector(".back");
 $(document).ready(function main() {
 
@@ -116,7 +117,17 @@ $(document).ready(function main() {
 	window.onbeforeunload = function () {
 		window.scrollTo(0, 0);
 	};
-
+	function checke() {
+	var check = false;
+	if (window.innerWidth > 768) {
+		check = true;
+	}
+	else{
+		doits();
+	}
+	return check;
+}
+checke();
 	const logo = document.querySelector('.divi');
 	const hover = document.querySelector('.hovering');
 	const p2 = document.querySelector('.page2');
