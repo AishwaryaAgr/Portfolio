@@ -150,3 +150,10 @@ checke();
 		correct();
 	});
 });
+const hearts = document.querySelectorAll(".Icon--heart");
+
+hearts.forEach((heart) => {
+	heart.addEventListener("click",(e)=>{
+	e.target.style.backgroundImage=`url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NCA3MiI+PHBhdGggY2xhc3M9Imljb24iIGZpbGw9IiNlODFjNGYiIGQ9Ik0zOC43MjMgMTJjLTcuMTg3IDAtMTEuMTYgNy4zMDYtMTEuNzIzIDguMTMtLjU2My0uODI0LTQuNDk2LTguMTMtMTEuNzIzLTguMTNDOC43OSAxMiAzLjUzMyAxOC4xNjMgMy41MzMgMjQuNjQ3IDMuNTMzIDM5Ljk2NCAyMS44OSA1NS45MDcgMjcgNTZjNS4xMS0uMDkzIDIzLjQ2Ny0xNi4wMzYgMjMuNDY3LTMxLjM1M0M1MC40NjcgMTguMTYzIDQ1LjIxIDEyIDM4LjcyMyAxMnoiLz48L3N2Zz4=')`;
+	})
+});
